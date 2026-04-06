@@ -77,9 +77,21 @@ cp /mnt/......./best.pt ./best.pt
 ```
 nuctl deploy --project-name cvat --path . --platform local
 ```
+6. Проверяем работу нашей функции в __Nuclio__ : http://localhost:8070/projects/cvat/functions
+
+<img width="3822" height="683" alt="image" src="https://github.com/user-attachments/assets/b3343e62-7c42-435c-bfd0-2452d7070c4f" />
+
 
 # Этап 5: Перезапуск CVAT
   Powershell:
   ```
 docker compose -f docker-compose.yml -f components/serverless/docker-compose.serverless.yml restart cvat_server cvat_worker_annotation
   ```
+<img width="1519" height="888" alt="image" src="https://github.com/user-attachments/assets/77176c37-a608-413f-992f-12820fae2511" />
+
+<img width="1559" height="458" alt="image" src="https://github.com/user-attachments/assets/1b2e495c-c3da-487d-b734-2887c23bd8b5" />
+
+И выбираем нашу модель.
+Или же:
+<img width="2172" height="1344" alt="image" src="https://github.com/user-attachments/assets/c6ae4e81-1648-460f-902f-768dd3eae225" />
+
