@@ -33,7 +33,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 runs/segment/coronary_yolov8m_seg/weights/best.pt
 в удобное место своего проекта
 
-__Файл обученной модели best.pt__ Google disk:https://drive.google.com/file/d/1NesrzecCfIKY5XpGdu8wWZWZ6A6oyv1b/view?usp=sharing
+__Файл модели best.pt, обученной на 170 изображениях__ Google disk:https://drive.google.com/file/d/1NesrzecCfIKY5XpGdu8wWZWZ6A6oyv1b/view?usp=sharing
 
 ## Этап 4: Подготовка serverless-функции
   ### 4.1 Запуск serverless в CVAT (один раз)
