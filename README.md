@@ -91,7 +91,7 @@ docker compose -f docker-compose.yml -f components/serverless/docker-compose.ser
 
 <img width="1559" height="458" alt="image" src="https://github.com/user-attachments/assets/1b2e495c-c3da-487d-b734-2887c23bd8b5" />
 
-И выбираем нашу модель.
-Или же:
+И выбираем нашу модель.\
+Или же другим способом:
 <img width="2172" height="1344" alt="image" src="https://github.com/user-attachments/assets/c6ae4e81-1648-460f-902f-768dd3eae225" />
 
