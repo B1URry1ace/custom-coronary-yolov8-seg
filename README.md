@@ -64,7 +64,7 @@ cd /mnt/....../CVAT/cvat-develop/serverless
 mkdir -p custom-coronary-yolov8-seg
 cd custom-coronary-yolov8-seg
 ```
-2. Скопируй или создай файл function.yaml
+2. Скопируй или создай файл function-gpu.yaml
 3. Скопируй или создай файл main.py
 4. Скопируй модель в папку:
 ```
