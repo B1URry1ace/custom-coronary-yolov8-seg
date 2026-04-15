@@ -73,11 +73,15 @@ cd custom-coronary-yolov8-seg
 ```
 cp /mnt/......./best.pt ./best.pt
 ```
-5. Запусти деплой:
+5. Создаём функцию в Nuclio
+```
+nuctl create project cvat
+```
+6. Запусти деплой:
 ```
 nuctl deploy --project-name cvat --path . --platform local
 ```
-6. Проверяем работу нашей функции в __Nuclio__ : http://localhost:8070/projects/cvat/functions
+7. Проверяем работу нашей функции в __Nuclio__ : http://localhost:8070/projects/cvat/functions
 
 <img width="3822" height="683" alt="image" src="https://github.com/user-attachments/assets/b3343e62-7c42-435c-bfd0-2452d7070c4f" />
 
