@@ -36,6 +36,8 @@ runs/segment/coronary_yolov8m_seg/weights/best.pt
 __Файлы моделей best.pt, можете скачать здесь:__ \
 [YOLO_Medium_V1_NO_VALIDATION](https://drive.google.com/file/d/1NesrzecCfIKY5XpGdu8wWZWZ6A6oyv1b/view?usp=sharing) -Обучена на полной выборке 170 изображений, без валидации \
 [YOLO_Large_V1.1_VALID_75/15](https://drive.google.com/file/d/18ZUi59f6Xq3d1HH0E997ToWlInn6GS4n/view?usp=sharing) -Обучена на 173 изображениях, валидация 75/15% 
+\
+[YOLO_Large_V1.2_VALID_пациентов 2/1, 50/50 %](https://drive.google.com/file/d/1cfeJT6MGarx0cpkrusnBpKgKQy2Nc4ol/view?usp=drive_link) -Обучена на 343 изображения, валидация 50/50%, 2/1 пациентов.
 
 ## Этап 4: Подготовка serverless-функции
   ### 4.1 Запуск serverless в CVAT (один раз)
