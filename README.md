@@ -1,4 +1,4 @@
-# custom-coronary-yolov8-seg
+# custom-coronary-yolo-segmentation
 
 ## Этап 0: Что должно быть уже готово
 
